@@ -1,0 +1,63 @@
+html{
+    cursor: url(imag/pointer.png),
+    auto;
+}
+a:hover{
+    cursor: url(img/pointer),
+    auto;
+}
+
+
+header{
+    background-color: lightyellow;
+    width: 100%;
+}
+
+img{
+width: 200px;
+}
+
+h1{
+    font-size: 40px;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 30px;
+    color: plum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 20px;
+    color: darkorchid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+font-size: 15px;
+color: black;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 218, 236);
+}
+
+.caja{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 218, 236);
+}
